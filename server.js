@@ -33,7 +33,7 @@ var timeTempMas = Create2DArray(1442,64);
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res) {
-	res.sendfile('Vizitka.html');
+	res.sendfile('index.html');
 });
 app.get('/montag', function(req, res) {
 	res.sendfile('montag.html');

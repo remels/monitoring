@@ -1,0 +1,89 @@
+body{
+font-size: 16px;
+}
+#dateToday {
+	width: 97%;
+	height: 50px;
+	margin: 0 auto;
+	//border: 1px solid black;
+	//background-color: #b384a2;
+	background-color: white;
+	text-align: center;
+	font-size: 1.3em;
+	color: #696969;
+}
+
+#realTemperature {
+	width: 97%;
+	height: 50px;
+	margin: 0 auto;
+	//background-color: #b6bbc2;
+	text-align: center;
+	font-size: 38px;
+	color: red;
+}
+
+#svgGraph {
+	width: 99%;
+	height: 400px;
+	margin: 0 auto;
+	background-color: #b6bbc2;
+	font-size: 32px;
+	overflow-x: scroll;
+	 //background: rgb(100,100,100) radial-gradient(circle at 0 0, rgba(255,255,255,.65), rgba(255,255,255,.35));
+  box-shadow:
+   inset rgba(0,0,0,.5) -3px -3px 8px,
+   inset rgba(255,255,255,.9) 3px 3px 8px;
+   //rgba(0,0,0,.8) 3px 3px 8px -3px;
+		
+}
+#archiv
+{
+ width: 90%;
+ height: 100px;
+ margin-top: 12px;
+}
+#toArchiv
+{
+ width: 130px;
+ height: 40px;
+ border: 1px solid #696969;
+ font-size: 1em;
+ color: #696969;
+ box-shadow:
+   inset rgba(0,0,0,.5) -3px -3px 8px,
+   inset rgba(255,255,255,.9) 3px 3px 8px;
+   //rgba(0,0,0,.8) 3px 3px 8px -3px;
+}
+#OnLine
+{
+ width: 264px;
+ height: 50px;
+ border: 1px solid #696969;
+ font-size: 1.4em;
+ color: #696969;
+ margin-top: 10px;
+ //background-color:#8FBC8F;
+ box-shadow:
+   inset rgba(0,0,0,.5) -3px -3px 8px,
+   inset rgba(255,255,255,.9) 3px 3px 8px;
+   //rgba(0,0,0,.8) 3px 3px 8px -3px;
+}
+#footer {
+	width: 99%;
+	height: 350px;
+	margin: 0 auto;
+	//background-color: #7ba27b;
+	background-color: white;
+}
+
+#enterArhiv {
+	width: 130px;
+	height: 40px;
+	font-size: 1em;
+	//border: 1px solid #696969;
+	color: #696969;
+	// background-color:green;
+	 box-shadow: 0 1.5px 1.5px #A9A9A9 inset;
+	 text-align: center;
+}

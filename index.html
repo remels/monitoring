@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Температура</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="stylesheet" href="/main.css" type="text/css"/>
+        <link rel="import" href="svg.html">
+    </head>
+    <body> 
+         <div id="dateToday">             
+             <script src="/dateToday.js"></script>
+         </div>
+        
+             <div id="realTemperature">	
+             </div>  
+        
+                 <div id="svgGraph">  	
+                    <script src="/svgGraph.js"></script>
+                 </div>    
+ 
+     <div id="footer">
+		  <div id = "archiv">
+					  <form id="reg" name="reg">
+						  <input type="text" id="enterArhiv" name="enterArhiv" placeholder="Введите дату">
+						  <input id = "toArchiv" type="button" value="Запрос в архив" onclick="arhiv()"/><br>
+						  <input id = "OnLine" type="button" value="OnLine режим" onclick="key = 0;"/>
+					  </form>				      
+			  <div id="dataFromArhiv"></div><br>
+         </div>
+      <!--<h2><a href="/goodBy">АРХИВ</a></h2>
+      <h2><a href="/hello">НАСТРОЙКИ</a></h2>
+      1 градус = 5 px........2 сек = 1 рх<br>-->
+      
+      
+      
+     </div>
+    <div id="svgGraf"></div>
+      <script src="/main.js"></script>  
+
+    </body>
+</html>

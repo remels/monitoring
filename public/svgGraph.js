@@ -4,7 +4,9 @@ let a = 1;
 //  43200
 document.write(`<svg width="43300" height="100%">`);
 
-document.write("<polyline id='pol' points='50 150 100 200' fill='#b6bbc2' stroke='red' stroke-width='3'/>");
+document.write("<polyline id='pol' points='50 150' fill='#b6bbc2' stroke='red' stroke-width='3'/>");
+document.write("<polyline id='pol2' points='50 150' fill='#b6bbc2' stroke='blue' stroke-width='3'/>");
+
 
 for (let i = 0; i < 8; i++) {
 	if (i == 4) document.write("<line x1='50' y1='" + (i * 50) + "' x2='43250' y2='" + (i * 50) + "' stroke='black' stroke-width='" + (3) + "'/>");

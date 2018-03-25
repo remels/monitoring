@@ -54,12 +54,13 @@ app.get('/remont', function(req, res) {
 
 app.post('/client', function(req, res) {	
 	req.on('data', function(data) {	
+		//console.log(decodeURIComponent(data));
 		if(decodeURIComponent(data) !== 'chek')
 		{			
 			check = 1;                  //  1 означает что пришли данные
 			var dat = new Date();								
 			masStr = decodeURIComponent(data).split(" ");	     //  массив из строки			
-						
+							
 			if(masStr.length >=60)      //  расчет по минуте, запрос каждые две секунды, но два элемента за раз: время и температура 
 			{ 
 				forClient++;						
@@ -185,7 +186,7 @@ app.post('/vote2', function(req, res){
 			res.write(timeTempstr2.toString('utf8'));
 			//console.log(timeTempstr.toString('utf8'));
 	    }
-	    else res.write('30002 52');
+	    else res.write('3000 100');
 	    			
 	});			
 		req.on('end', function() {						
